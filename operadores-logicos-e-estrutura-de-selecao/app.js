@@ -1,3 +1,19 @@
+/*
+Operadores e Estrutura de seleção
+
+
+Agora que já entendemos como funcionam os operadores lógicos e estrutura de seleção. Nesse exercícios vamos exercitar algumas coisas:
+
+Criar um novo programa;
+Capturar as informações passadas na linha de comando;
+Aprender a utilizar a depuração do VS Code;
+Retornar para o usuário o resultado de acordo com a informação passada por ele.
+
+*/
+
+
+
+
 const readLine = require('readline').createInterface({
   input: process.stdin,
   output: process.stdout

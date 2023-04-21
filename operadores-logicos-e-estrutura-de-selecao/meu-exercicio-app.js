@@ -1,3 +1,10 @@
+/*
+Desafio:
+
+Escrever um programa que recebe o nome e a idade e de acordo com uma lista de convidados validar se a pessoa está na lista e é maior de idade e retornar a mensagem de acordo com as validações feitas.
+
+*/
+
 const readLine = require('readline').createInterface({
   input: process.stdin,
   output: process.stdout

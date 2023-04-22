@@ -1,3 +1,8 @@
+/*Desafio:
+
+Escrever um programa que recebe dois números e um operador matemático e com isso executa o o calculo corretamente.
+*/
+
 const readLine = require('readline').createInterface({
   input: process.stdin,
   output: process.stdout
@@ -20,7 +25,7 @@ const validarOperador = operador => {
     case '%':
       return operador
     default:
-      console.log('operador informado invalido')
+      console.log('Operador informado invalido')
       return null
   }
 }
